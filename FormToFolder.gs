@@ -12,6 +12,7 @@ function onFormSubmit(e) {
     var files = items[1].getResponse();
 
     // define destination folders from google drive 
+    // You can get folder ID by opening the folder in Google Drive and copying the ID
     var dest1 = DriveApp.getFolderById('dest1 folder ID');
     var dest2 = DriveApp.getFolderById('dest2 folder ID');
 
